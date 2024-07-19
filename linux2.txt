@@ -1,0 +1,38 @@
+Linux
+
+echo $shell
+    > to know the shell using its usually bash
+
+uname -r
+    > to know the kernel version
+
+To install downloaded deb file 
+    > dpkg -i <downloaded debian file>
+
+To know the verison of softwares being installed through apt
+    > apt-cache policy <softwarename>
+
+
+To check if a user exists in the system
+    > id <username>
+
+To check the the list of users available
+    > cat /etc/passwd
+
+To add user
+    > sudo adduser <username>
+
+To switch user
+    > su - <username>
+
+To enable password authentication
+    > sudo vi /etc/ssh/sshd_config
+
+    go to password authentictaion below and change it to yes
+
+To change password of the user
+     > sudo passwd <username>
+
+To delete user
+     > sudo userdel <username>
+
