@@ -1,0 +1,21 @@
+Linux keyboard shortcuts
+
+control + l = to clear the screen
+
+control + a = to go to the start of the command line
+
+control + e = to go to the end of the command line
+
+control + u = to clear everything typed
+
+control + b = to go back one character
+
+contorl + t = to swap last two characters
+
+contorl + w = to clear the last word
+
+control + y = to add the fist word again
+
+
+command + t = to open a new terminal
+
