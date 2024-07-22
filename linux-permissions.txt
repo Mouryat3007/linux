@@ -1,0 +1,42 @@
+Linux permission 
+
+-------------------------------------------------------------
+To execute a binary file
+
+./<filename>
+
+List long
+  > ls -l 
+
+-rw-rw-r--  when there is a hypen "-" in the start it represents file
+
+drwxrwxr-x when you see d in the start it represents directory
+
+rwx= read write execute
+
+
+
+r w x      r w x      r w x
+_ _ _      _ _ _      _ _ _
+
+OWNER      GROUP      OTHERS
+
+to add user
+   > sudo useradd <username>
+
+   useradd= to add user
+
+TO add a group
+   > sudo groupadd <group name>
+
+   groupadd= to add new group
+
+TO add users to the group
+   > sudo usermod -aG <groupname> <username>
+
+   -aG= add group
+
+To change group of a file
+   > sudo chgrp < newgroupname> <filename> 
+
+   chgrp= change group  
