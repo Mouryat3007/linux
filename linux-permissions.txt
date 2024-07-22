@@ -39,4 +39,50 @@ TO add users to the group
 To change group of a file
    > sudo chgrp < newgroupname> <filename> 
 
-   chgrp= change group  
+   chgrp= change group
+
+u= owner
+g= group
+o= others 
+
+to give execute permission to owner for a particluar file
+   > chmod u+x <filename>
+
+to give execute permission to a group for a particluar file
+   > chmod g+x <filename>
+
+to give execute permission to both owner and group
+   > chmod ug+x <filename>
+
+to give execute permission to others
+   > chmod o+x <filename>   
+
+
+The process of using the above way to change permission is known as symbolic way where you use symbols usch as u , g, and o
+-----------------------------------------------------------------------------------
+
+--------------------------------------------
+The another way is know as absolute way where we use numbers
+
+Read 'r'= 4
+
+Write 'w'= 2
+
+Execute 'x'= 1 
+
+No permisssion = 0
+
+
+
+-rw-rw-r--
+
+in this way rw is 2 rw is 2 and r is 4
+
+chmod 777 <filename>
+
+output=rwxrwxrwx
+
+r w x  r w x  r w x 
+4 2 1  4 2 1  4 2 1
+
+  7      7      7  
